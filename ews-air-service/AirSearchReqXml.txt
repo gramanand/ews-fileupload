@@ -1,0 +1,24 @@
+<SearchRequestBody
+    xmlns="urn:expedia:xmlapi:shop:air:v1">
+    <options>
+        <cabinClass>Coach</cabinClass>
+        <limit>20</limit>
+    </options>
+    <passengers>
+        <adultCount>1</adultCount>
+    </passengers>
+    <legs>
+        <leg>
+            <departure>
+                <type>Airport</type>
+                <value>LAS</value>
+            </departure>
+            <arrival>
+                <type>Airport</type>
+                <value>LAX</value>
+            </arrival>
+            <departureDate>2017-06-15</departureDate>
+            <departureTimeSpan>Anytime</departureTimeSpan>
+        </leg>
+    </legs>
+</SearchRequestBody>
